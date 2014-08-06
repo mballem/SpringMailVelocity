@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta content="text/html" http-equiv="content-type">
+    <title>${to}</title>
+</head>
+<body style="padding-top: 20px; padding-bottom: 40px;">
+<div style="background-color: #ebebeb; border: 1px solid #CCC; margin-bottom: 8px;
+            margin-top: 10px; margin-right: 8px; margin: 0 auto; max-width: 760px;">
+
+    <div style="background-color:#9ACD32; border: 1px solid #CCC; margin-bottom: 10px;
+                margin-top: 10px; margin-left: 8px; margin-right: 8px;
+                font-family: Consolas; padding-bottom:1px; padding-top:1px;">
+        <h2 style="padding-left: 2%">${subject}</h2>
+    </div>
+
+    <div style="background-color:#fff; border: 1px solid #CCC; margin-bottom: 10px;
+                    margin-left: 8px;  margin-right: 8px; font-family:Arial;
+                    font-size:12px; line-height:18px; text-align:left;">
+        <h3 style="padding-left: 2%">
+            <strong> Date: </strong>${date}
+        </h3>
+
+        <h3 style="padding-left: 2%">
+            <strong> From: </strong>${personal} - ${from}
+        </h3>
+
+        <p style="padding-left: 2%; text-align: left;
+                    font-family: 'Courier New', Monospace; font-size: 12pt">
+            ${text}
+        </p>
+    </div>
+</div>
+</body>
+</html>
